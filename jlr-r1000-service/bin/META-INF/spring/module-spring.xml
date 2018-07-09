@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="com.liferay.kris.jlr.r1000.service.impl.R1000LocalServiceImpl" id="com.liferay.kris.jlr.r1000.service.R1000LocalService" />
+	<bean class="com.liferay.kris.jlr.r1000.service.impl.R1000ServiceImpl" id="com.liferay.kris.jlr.r1000.service.R1000Service" />
+	<bean class="com.liferay.kris.jlr.r1000.service.persistence.impl.R1000PersistenceImpl" id="com.liferay.kris.jlr.r1000.service.persistence.R1000Persistence" parent="basePersistence" />
+</beans>

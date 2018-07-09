@@ -1,0 +1,9 @@
+Bundle-Name: jlr-r1000-api
+Bundle-SymbolicName: com.liferay.kris.jlr.r1000.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.kris.jlr.r1000.exception,\
+	com.liferay.kris.jlr.r1000.model,\
+	com.liferay.kris.jlr.r1000.service,\
+	com.liferay.kris.jlr.r1000.service.persistence
+-includeresource: META-INF/service.xml=../jlr-r1000-service/service.xml
